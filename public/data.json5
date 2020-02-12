@@ -112,7 +112,7 @@
         subtitle: "blog",
       },
       blog: "https://shiinaorez.github.io",
-      rss: "",
+      rss: "https://raw.githubusercontent.com/ShiinaOrez/ShiinaOrez.github.io/master/atom.xml",
     },
   ],
 }
