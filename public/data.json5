@@ -1,0 +1,118 @@
+{
+  // 页面title
+  title: "ShiinaOrez - 一只爱吃青豆的秃头废鹅",
+  // 社交链接
+  social: {
+    github: "https://github.com/ShiinaOrez",
+    twitter: "https://twitter.com/shiina_orez",
+    linkedin: "",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "Shiina Orez",
+    desc: [
+      "素质教育的漏网之鱼",
+      "熬夜协会常任理事",
+      "中国驰名窝里横",
+      "矛盾辩论赛冠军",
+      "国家级退堂鼓演奏家",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "开头的胡言乱语",
+        subtitle: "about me",
+      },
+      content: {
+        name: "宋汝阳",
+        desc: [
+          "程序员",
+          "Coser",
+          "山东人",
+        ],
+        md: "Shiina Orez, 前半部分Shiina为日文[椎名]的罗马音, 源自动漫<<樱花庄的宠物女孩>>中的角色椎名真白, 后半部分Orez代表对世界上的大神永远有敬畏之心.\
+        \n\n母校山东省东营市胜利油田第三中学, 就读13年, 后至华中师范大学进修软件工程专业, 曾任木犀互联网技术团队主管, 后端组组长.\
+        \n\n上学期间捡到了我的夫人❤璐妍, 真的是特别的幸运.\
+        \n\n目前主攻Go语言后端开发, 是个不会写代码的小机灵鬼. 技术栈: C/ C++/ Python/ Golang\
+        \n\n喜欢吃大蒜, 韭菜, 茴香, 莴苣等等, 希望有缘人可以请我喝奶茶吃烧烤和火锅.\
+        \n喜欢的轻小说/动漫/漫画: <<海贼王>>, <<火影忍者>>, <<樱花庄的宠物女孩>>, <<博多豚骨拉面团>>, <<Circus柑橘味香气>>, <<文豪野犬>>, <<Re: 从零开始的异世界生活>>, <<鬼灭之刃>>, <<小林家的龙女仆>>, <<齐木楠雄的灾难>>\
+        \n喜欢的游戏: [Nier: Automata], [WOWS], [LOL], [舰队收藏], [碧蓝航线], [战舰少女R], [明日方舟], [海贼无双]\
+        \n\n\n\n最后一行留给我生命中的贵人(不分先后): 何嘉璐, 李晓辉, 常旭炎, 宋书祎等...",
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "Github": "https://github.com/ShiinaOrez",
+        "博客": "https://shiinaorez.github.io",
+      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "鬼知道我经历了什么",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "Byte Dance",
+          subtitle: "2019-12 至今",
+          md: "<!--**<u>后端工程师</u>**-->\
+          \n\
+          \n当社畜... 赚钱养老婆",
+        },
+        {
+          title: "木犀互联网技术团队",
+          subtitle: "2017-10 至 世界末日",
+          md: "**<u>曾任主管, 后端组组长</u>**\
+          \n\
+          \n我更愿意说我毕业于木犀大学!!!",
+        },
+        {
+          title: "华中师范大学",
+          subtitle: "2017-09 至 2021-06",
+          md: "**<u>本科生: 软件工程</u>**\
+          \n\
+          \nFrom 山东 To 武汉, 开启人生新篇章\
+          \n桂子山真的挺漂亮的, 就是官僚主义气息太浓厚了",
+        },
+      ],
+    },
+    // 博客页
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "我都写了些啥东西啊...",
+        subtitle: "blog",
+      },
+      blog: "https://shiinaorez.github.io",
+      rss: "",
+    },
+  ],
+}
