@@ -1,5 +1,3 @@
-const WebpackAliyunOssPlugin = require('./oss');
-
 module.exports = {
     outputDir: 'docs',
     productionSourceMap: false,
@@ -8,13 +6,5 @@ module.exports = {
         sourceMap: true
     },
 
-    configureWebpack: {
-        plugins: [
-            new WebpackAliyunOssPlugin({
-                enable: false
-            })
-        ]
-    },
-
-    publicPath: '/'
+    publicPath: './'
 };
