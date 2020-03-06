@@ -26,9 +26,11 @@
                 <a-col span="24"><Social color="rgb(136,136,136)" :size="1.2"/></a-col>
             </a-row>
             <!-- 版权 -->
+            <!--
             <a-row type="flex" justify="center" align="middle" :gutter="2">
                 <a-col span="24"><Copyrights color="rgb(136,136,136)" :size=".6"/></a-col>
             </a-row>
+            -->
         </a-layout-footer>
     </a-layout>
 </template>

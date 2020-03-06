@@ -23,9 +23,16 @@ SOFTWARE.
 -->
 
 <template>
-    <a :style="{color: color, 'font-size': size + 'em'}" href="https://github.com/manerfan/vuesume/blob/master/LICENSE" target="_blank">
-        ©2020 VUE | LICENSE
-    </a>
+    <div>
+        <a :style="{color: color, 'font-size': size + 'em'}" href="https://github.com/manerfan/vuesume/blob/master/LICENSE" target="_blank">
+            ©2020 VUE | LICENSE
+        </a>
+        <br>
+        <a href="http://www.beian.miit.gov.cn/?spm=a2c4g.11186623.2.29.7d9f7243z2zogF">
+            <img data-src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" height="20" width="20">
+            <span>鲁ICP备19051812号</span>
+        </a>
+    </div>
 </template>
 
 <script lang="ts">
